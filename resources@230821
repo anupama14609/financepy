@@ -1,0 +1,40 @@
+======================================================================================
+Notes: 
+======================================================================================
+Removal of Google Finance and Morningstar, which were deprecated in 0.7.0
+The Ticker module, which allows you to access ticker data in a more Pythonic way:
+A stock symbol or ticker is a unique series of letters assigned to a security for trading purposes. 
+Symbols are just a shorthand way of describing a company's stock
+Investors and traders use the symbol to place trade orders.
+There are two ticker symbols for Alphabet Inc. on the NASDAQ stock exchange: GOOG and GOOGL.
+The two tickers represent two different share classes: A (GOOGL) and C (GOOG). 
+The B shares are owned by insiders and don't trade on the public markets.
+
+
+======================================================================================
+Finance Modules:
+======================================================================================
+Numpy
+Matplotlib
+Pandas
+Pandas-datareader
+BeautifulSoup4
+scikit-learn / sklearn
+yfinance
+
+======================================================================================
+codeBugs:
+======================================================================================
+df = web.DataReader("TSLA", 'morningstar', start, end)
+print(df)
+
+======================================================================================
+======================================================================================
+References:
+https://pythonprogramming.net/getting-stock-prices-python-programming-for-finance/
+https://pythonprogramming.net/matplotlib-intro-tutorial/
+https://pythonprogramming.net/data-analysis-python-pandas-tutorial-introduction/
+https://www.investopedia.com/terms/s/stocksymbol.asp
+https://python-forum.io/thread-8754.html
+https://pypi.org/project/yfinance/
+https://www.investopedia.com/articles/markets/052215/goog-or-googl-which-google-should-you-buy.asp
