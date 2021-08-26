@@ -38,3 +38,14 @@ https://www.investopedia.com/terms/s/stocksymbol.asp
 https://python-forum.io/thread-8754.html
 https://pypi.org/project/yfinance/
 https://www.investopedia.com/articles/markets/052215/goog-or-googl-which-google-should-you-buy.asp
+
+Date@250821
+======================================================================================
+Notes: 
+======================================================================================
+pip install --upgrade mplfinance
+beautifulsoup.title == beautifulsoup.find('title')
+======================================================================================
+References:
+https://www.pluralsight.com/guides/extracting-data-html-beautifulsoup
+https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
